@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0% ;
+    font-family: 'Mulish', sans-serif;
+
+}nav{
+    padding: 0%;
+    margin: 0% ;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: -webkit-sticky;
+  position: sticky;
+  background-color:hotpink;
+   display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+ul{
+    list-style-type: none;
+    justify-content:auto ;
+    overflow: auto;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    text-decoration: none;
+    margin: 16px;
+    color: black;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    overflow: auto;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    color: black;
+}
+li,a:hover{
+    color: rgb(255, 255, 255);
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+}
+.main{
+    background-image: url(https://ichef.bbci.co.uk/images/ic/1280xn/p08s6frp.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+justify-content:center;
+align-items: center;
+padding: 0;
+position: relative;
+width: 100%;
+height: 100vh;
+}
+.content{
+    text-align: center;
+}
+.content h1 {
+    font-size: 120px;
+    color:black;
+    font-weight:300;
+}
+.b {
+    font-size: 30px;
+    text-align: center; 
+    margin: 30px;
+}
+.i{
+    font-size: 35px;
+    font-weight: 100;
+    color: #0e02bf;
+
+}
+.h{
+    text-align: center;
+    margin: 8px;
+    font-size: 25px;
+}
+.j{
+    
+    margin: 8px;
+    font-size: 25px;
+}
+.v{
+    width: 350px;
+    height: 250px;
+    margin: 50px;
+  float: inherit;
+}
